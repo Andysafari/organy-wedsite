@@ -1,4 +1,32 @@
 html {
   height: 100%;
-  width: 100%;
+  background-color: #fff;
+  width: 100%; 
+  text-align: center;
+}
+
+body{
+color: red;
+}
+
+nav{
+  text-align: left;
+}  
+
+h1 {
+  color: darkblue;
+  margin: 0px 0px 0px 0px;
+}    
+
+p{
+width: 60%; 
+background-color: lightskyblue
+  color:#FFF; 
+line-height: 2.6;
+padding:50px 50px 50px 50px; /* Top right bottom left */
+margin: 0px 0px 0px 50px;  
+font-size: 14px;
+font-family: Arial,Helvetiva, sans-serif; 
+
+
 }
