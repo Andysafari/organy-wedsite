@@ -5,7 +5,7 @@ html {
   text-align: center;
 }
 
-body{
+body {
 color: red;
 }
 
@@ -20,7 +20,7 @@ h1 {
 
 p{
 width: 60%; 
-background-color: lightskyblue
+background-color: lightskyblue;
   color:#FFF; 
 line-height: 2.6;
 padding:50px 50px 50px 50px; /* Top right bottom left */
