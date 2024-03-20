@@ -1,6 +1,6 @@
 html {
   height: 100%;
-  background-color: #fff;
+  background-color: #fffafa;
   width: 100%; 
   text-align: center;
 }
@@ -27,6 +27,131 @@ padding:50px 50px 50px 50px; /* Top right bottom left */
 margin: 0px 0px 0px 50px;  
 font-size: 14px;
 font-family: Arial,Helvetiva, sans-serif; 
-
-
 }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Title Here</title>
+  <style>
+    /* Universal Selector */
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      height: 100%;
+      background-color: #fff;
+      width: 100%; 
+      text-align: center;
+    }
+
+    body {
+      color: red;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      text-align: left;
+    }  
+
+    h1 {
+      color: darkblue;
+      margin: 0;
+      padding: 20px 0;
+    }    
+
+    p {
+      width: 60%; 
+      background-color: lightskyblue;
+      color: #FFF; 
+      line-height: 2.6;
+      padding: 20px;
+      margin: 0 auto;
+      font-size: 16px;
+    }
+
+    /* Class Selector */
+    .container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 80vh; /* Adjust as needed */
+    }
+
+    .left {
+      flex: 1;
+      padding: 20px;
+      background-color: lightgreen;
+    }
+
+    .right {
+      flex: 1;
+      padding: 20px;
+      background-color: lightcoral;
+    }
+
+    /* Descendant Selector */
+    .container h2 {
+      color: #333;
+    }
+
+    /* Child Selector */
+    nav > ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    nav > ul > li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    nav > ul > li > a {
+      text-decoration: none;
+      color: #000;
+    }
+
+    /* Adjacent Sibling Selector */
+    h1 + .container {
+      margin-top: 20px;
+    }
+
+    /* Attribute Selector */
+    p[title="important"] {
+      font-weight: bold;
+    }
+
+    /* Pseudo-class Selector */
+    p:hover {
+      background-color: lightyellow;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <h1>Welcome to my Website</h1>
+
+  <div class="container">
+    <div class="left">
+      <h2>About Us</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget mi sed urna volutpat ultricies id vitae odio. Nulla facilisi.</p>
+    </div>
+    <div class="right">
+      <h2>Contact Us</h2>
+      <p title="important">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget mi sed urna volutpat ultricies id vitae odio. Nulla facilisi.</p>
+    </div>
+  </div>
+</body>
+</html>
+
