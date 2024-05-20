@@ -1,11 +1,8 @@
     alert ( "welcome to organ " );  
 
     let age = 16; 
-
     let birthyear = 2007 
-
-
-   document.getElementById("footer").innerText = `${new Date ().getFullYear()}`;
+document.getElementById("footer").innerText = `${new Date ().getFullYear()}`;
 
     console.log (" MY age is "  + age + " and I was born in" + birthyear)  
 
