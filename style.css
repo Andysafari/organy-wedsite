@@ -1,11 +1,11 @@
-html {
+/* html {
   height: 100%;
-  background-color: #fff;
+  background-color: #fffafa;
   width: 100%; 
   text-align: center;
 }
-
-body{
+ */
+body {
 color: red;
 }
 
@@ -19,14 +19,107 @@ h1 {
 }    
 
 p{
-width: 60%; 
-background-color: lightskyblue
-  color:#FFF; 
-line-height: 2.6;
+/* width: 60%; 
+/* background-color: lightskyblue;
+  color:#FFF;  */
+/* line-height: 2.6;
 padding:50px 50px 50px 50px; /* Top right bottom left */
-margin: 0px 0px 0px 50px;  
-font-size: 14px;
+/* margin: 0px 0px 0px 50px;   */ */
+font-size: 14px; 
 font-family: Arial,Helvetiva, sans-serif; 
-
-
 }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      height: 100%;
+      background-color: gray;
+      width: 100%; 
+      text-align: center;
+    }
+
+    body {
+      color: #7c2a00;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      text-align: center;
+      
+    }  
+
+    h1 {
+      color: #7c2a00;
+      margin: 0;
+      padding: 20px 0;
+    }    
+
+    /* p {
+      width: 60%; 
+      background-color: lightskyblue;
+      color: #FFF; 
+      line-height: 2.6;
+      padding: 20px;
+      margin: 0 auto;
+      font-size: 16px;
+    } */
+
+    /* Class Selector */
+    .container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 80vh; /* Adjust as needed */
+    }
+
+    /* .left {
+      flex: 1;
+      padding: 20px;
+      background-color: lightgreen;
+    }
+
+    .right {
+      flex: 1;
+      padding: 20px;
+      background-color: lightcoral;
+    }
+
+    /* Descendant Selector */
+    .container h2 {
+      color: #333;
+    }
+
+    /* Child Selector */
+    nav > ul {
+      list-style-type: none;
+      padding: 0;
+    } 
+nav :hover{
+  color: orange;
+}
+    nav > ul > li {
+      display: inline;
+      margin-right: 20px;
+      
+    }
+
+    nav > ul > li > a {
+      text-decoration: none;
+      color: #000;
+    }
+
+    /* Adjacent Sibling Selector */
+    h1 + .container {
+      margin-top: 20px;
+    }
+
+    /* Attribute Selector */
+    p[title="important"] {
+      font-weight: bold;
+    }
+
+  
