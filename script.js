@@ -1,3 +1,4 @@
+<<<<<<< HEAD
     alert ( "welcome to organ " );  
 
     let age = 16; 
@@ -12,6 +13,7 @@ document.getElementById("footer").innerText = `${new Date ().getFullYear()}`;
     else{   
       console.log ( 'you are a child""')
       }  
+
 
     // if ( age > 18 && age < 30 ) { console.log(" you are in twenties or late teens")}  
 
