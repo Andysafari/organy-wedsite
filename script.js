@@ -1,5 +1,5 @@
     
-    alert ( "welcome to organ " );  
+    alert ( "welcome to organ" );  
 
 let age = 16;
 let birthyear = 2007;
