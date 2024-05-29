@@ -27,7 +27,7 @@ let isStudent = true;
 let hasID = false;
 
 if (age > 18 && isStudent) {
-    console.log('You are an adult student');
+    console.log('You are an adult student you can organize your schedule');
     document.getElementById("output").innerText += "\nYou are an adult student";
 } else if (age > 18 || hasID) {
     console.log('You are an adult or have an ID');
